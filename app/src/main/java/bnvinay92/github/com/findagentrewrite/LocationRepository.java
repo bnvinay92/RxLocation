@@ -6,4 +6,5 @@ import io.reactivex.Observable;
 
 public interface LocationRepository {
     Observable<Location> locationUpdates();
+    Observable<PermissionState> permissionStates();
 }

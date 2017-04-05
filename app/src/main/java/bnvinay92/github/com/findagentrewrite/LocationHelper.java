@@ -32,4 +32,7 @@ class LocationHelper {
     public Single<Location> fetchLocation(GoogleApiClient googleApiClient) {
         return Single.never();
     }
+    public Location getLastKnownLocation() {
+        return null;
+    }
 }
